@@ -1,0 +1,25 @@
+.card {
+  display: block;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding: 1rem;
+  text-decoration: none;
+  color: #111;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #555;
+}
